@@ -6,7 +6,6 @@ import { FaBars } from "react-icons/fa";
 
 function myMenuFunction() {
   const menuBtn = document.getElementById("myNavMenu");
-
   menuBtn.classList.toggle("responsive");
 }
 
