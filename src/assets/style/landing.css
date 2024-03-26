@@ -9,7 +9,7 @@
 }
 @media screen and (max-width: 1024px) {
   .landing {
-    background-image: url("../../assets/images/landing_mobile.JPG");
+    background-image: url("../../assets/images/landing_mobile_copy.JPG");
   }
 }
 
@@ -28,6 +28,13 @@
   width: 50%;
   margin-left: 100px;
 }
+@media screen and (max-width: 1024px) {
+  .featured-text {
+    width: 90%;
+    margin: auto;
+  }
+}
+
 .featured-text-card span {
   background: var(--third-color);
   color: var(--color-white);
