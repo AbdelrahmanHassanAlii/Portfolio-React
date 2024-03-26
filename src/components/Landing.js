@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Typed from "typed.js";
 import "../assets/style/landing.css";
+import Social from "./Social";
 
 export default function Landing() {
   const [isTyping, setIsTyping] = useState(true);
@@ -41,6 +42,7 @@ export default function Landing() {
               visually stunning and user-friendly websites.
             </p>
           </div>
+          <Social />
         </div>
       </div>
     </div>

@@ -10,7 +10,7 @@ export default function CvButton() {
       rel="noreferrer"
       download="Abdelrahman Hassan CV.pdf"
     >
-      <button>Download CV</button>
+      <button className="cv-button">Download CV</button>
     </a>
   );
 }

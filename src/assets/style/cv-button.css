@@ -1,4 +1,4 @@
-button {
+.cv-button {
   --bg: var(--first-color);
   --text-color: var(--body-color);
   position: relative;
@@ -17,11 +17,11 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.cv-button:hover {
   opacity: 1;
 }
 
-button:active {
+.cv-button:active {
   top: 4px;
   box-shadow: var(--first-color) 0px 3px 2px, #000 0px 3px 5px;
 }
