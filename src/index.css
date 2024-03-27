@@ -77,8 +77,14 @@ i {
 body {
   background: var(--body-color);
 }
+
 .container {
   width: 100%;
   position: relative;
   overflow-x: hidden; /* not mandatory */
+}
+
+.narrow-container{
+  width: 80%;
+  margin: 0 auto;
 }
