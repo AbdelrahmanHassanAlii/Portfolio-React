@@ -9,22 +9,8 @@
   margin: 0 auto;
 }
 
-.skills-header {
-  text-align: center;
-}
-
-.skills-title {
-  margin-bottom: 10px;
-  font-size: 24px;
-}
-
-.skills-description {
-  margin-bottom: 30px;
-  font-size: 16px;
-}
-
 .skills-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
 }

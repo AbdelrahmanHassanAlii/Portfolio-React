@@ -3,10 +3,11 @@ import About from "../components/About";
 import AboutMeLinks from "../components/AboutMeLinks";
 import { Route, Routes } from "react-router-dom";
 import Skills from "../components/Skills";
+import '../assets/style/about-me.css';
 
 export default function AboutMe() {
   return (
-    <div className="narrow-container" id="about">
+    <div className="about-me-section narrow-container" id="about">
       <AboutMeLinks />
       <Routes>
         <Route path="/" element={<About />} exact />
