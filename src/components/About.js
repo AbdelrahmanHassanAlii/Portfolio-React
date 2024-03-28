@@ -1,10 +1,11 @@
 import React from "react";
 import aboutImage from "../assets/images/about.c07f3d2b.png";
 import "../assets/style/about.css";
+import CvButton from "./CvButton";
 
 export default function About() {
   return (
-    <div className="about-section ">
+    <div className="about-section about-section">
       <div className="about-image">
         <img src={aboutImage} alt="about" />
       </div>
@@ -17,6 +18,9 @@ export default function About() {
           exciting projects to work on. If you like what you see and want to get
           in touch, please don't hesitate to contact me.
         </p>
+        <div className="about-cv-button">
+          <CvButton />
+        </div>
       </div>
     </div>
   );

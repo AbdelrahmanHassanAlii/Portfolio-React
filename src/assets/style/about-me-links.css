@@ -37,7 +37,8 @@
   }
 }
 
-.about-me-links a:hover {
+.about-me-links a:hover,
+.about-me-links a:active{
   color: #fff;
   background-color: var(--first-color);
   border-radius: 10px;
