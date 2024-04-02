@@ -6,6 +6,7 @@ import Skills from "../components/Skills";
 import '../assets/style/about-me.css';
 import Services from "../components/Services";
 
+
 export default function AboutMe() {
   return (
     <div className="about-me-section narrow-container" id="about">

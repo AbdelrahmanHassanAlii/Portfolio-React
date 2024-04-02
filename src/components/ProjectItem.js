@@ -4,12 +4,11 @@ import { Link } from "react-router-dom";
 import { TbWorld } from "react-icons/tb";
 import { FaCode } from "react-icons/fa";
 
-export default function ProjectItem({ type, image, title, description }) {
+export default function ProjectItem({ type, imageName, title, description }) {
   return (
     <div
-      className={`project-item ${type === "even" ? "reverse" : ""}`}
+      className={`project-item ${type === "even" ? "reverse" : ""} ${imageName}`}
       style={{
-        backgroundImage: `url(${image})`,
         backgroundSize: "cover",
       }}
     >
@@ -19,7 +18,7 @@ export default function ProjectItem({ type, image, title, description }) {
         <p className="project-desc">{description}</p>
         <div className="project-buttons">
           <Link
-            to={"/"}
+            to={"/projects/demo/" + title}
             className="project-button"
             target="_blank"
             rel="noreferrer"
@@ -29,7 +28,7 @@ export default function ProjectItem({ type, image, title, description }) {
           </Link>
 
           <Link
-            to={"/"}
+            to={"/projects/code/" + title}
             className="project-button"
             target="_blank"
             rel="noreferrer"

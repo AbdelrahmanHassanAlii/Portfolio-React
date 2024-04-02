@@ -1,0 +1,56 @@
+[
+  {
+    "type": "odd",
+    "image": "Demo",
+    "title": "Project 1",
+    "description": "This is a description of project 1.",
+    "status": "inProgress",
+    "codeLink": "https://github.com/Hassan-Elshamy/Portfolio",
+    "demoLink": "https://github.com/Hassan-Elshamy/Portfolio"
+  },
+  {
+    "type": "even",
+    "image": "Demo",
+    "title": "Project 2",
+    "description": "This is a description of project 2.",
+    "status": "completed",
+    "codeLink": "https://github.com/Hassan-Elshamy/Portfolio",
+    "demoLink": "https://github.com/Hassan-Elshamy/Portfolio"
+  },
+  {
+    "type": "odd",
+    "image": "Demo",
+    "title": "Project 3",
+    "description": "This is a description of project 3.",
+    "status": "inProgress",
+    "codeLink": "https://github.com/Hassan-Elshamy/Portfolio",
+    "demoLink": "https://github.com/Hassan-Elshamy/Portfolio"
+  },
+  {
+    "type": "even",
+    "image": "Demo",
+    "title": "Project 4",
+    "description": "This is a description of project 4.",
+    "status": "completed",
+    "codeLink": "https://github.com/Hassan-Elshamy/Portfolio",
+    "demoLink": "https://github.com/Hassan-Elshamy/Portfolio"
+  },
+  {
+    "type": "odd",
+    "image": "Demo",
+    "title": "Project 5",
+    "description": "This is a description of project 5.",
+    "status": "inProgress",
+    "codeLink": "https://github.com/Hassan-Elshamy/Portfolio",
+    "demoLink": "https://github.com/Hassan-Elshamy/Portfolio"
+  },
+  {
+    "type": "even",
+    "image": "Demo",
+    "title": "Project 6",
+    "description": "This is a description of project 6.",
+    "status": "completed",
+    "codeLink": "https://github.com/Hassan-Elshamy/Portfolio",
+    "demoLink": "https://github.com/Hassan-Elshamy/Portfolio"
+  }
+]

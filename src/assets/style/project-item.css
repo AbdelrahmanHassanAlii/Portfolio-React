@@ -46,6 +46,10 @@
   -o-transition: 0.5s;
 }
 
+.project-item.Demo {
+  background-image: url("../images/Demo.png");
+}
+
 .project-overlay {
   width: 100%;
   height: 100%;
