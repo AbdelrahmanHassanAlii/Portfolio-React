@@ -40,7 +40,6 @@ export default function ProjectItem({
         )}
         <p className="project-desc">{description}</p>
         <div className="project-buttons">
-          
           <Link
             to={demoLink}
             className="project-button"
