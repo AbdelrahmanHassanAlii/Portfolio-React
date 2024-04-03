@@ -28,6 +28,8 @@ export default function Projects() {
                 title={project.title}
                 description={project.description}
                 status={project.status}
+                codeLink={project.codeLink}
+                demoLink={project.demoLink}
               />
             ))
           }
