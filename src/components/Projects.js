@@ -12,27 +12,22 @@ export default function Projects() {
   }, []);
 
   return (
-    <div
-      div
-      className="projects-section narrow-container"
-      id="projects"
-    >
+    <div div className="projects-section narrow-container" id="projects">
       <div className="projects-title">Projects</div>
       <div className="projects-container">
         <div className="projects-list">
-          {
-            projects.map((project) => (
-              <ProjectItem
-                type={project.type}
-                imageName={project.image}
-                title={project.title}
-                description={project.description}
-                status={project.status}
-                codeLink={project.codeLink}
-                demoLink={project.demoLink}
-              />
-            ))
-          }
+          {projects.map((project, index) => (
+            <ProjectItem
+              key={index}
+              type={project.type}
+              imageName={project.image}
+              title={project.title}
+              description={project.description}
+              status={project.status}
+              codeLink={project.codeLink}
+              demoLink={project.demoLink}
+            />
+          ))}
         </div>
       </div>
     </div>

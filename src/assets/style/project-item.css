@@ -46,8 +46,17 @@
   -o-transition: 0.5s;
 }
 
-.project-item.Demo {
-  background-image: url("../images/Demo.png");
+.project-item {
+  background-size: cover;
+  background-image: url("../images/gitRepo.png");
+}
+
+.project-item.gitRepo {
+  background-image: url("../images/gitRepo.png");
+}
+
+.project-item.starStage{
+  background-image: url("../images/starStage.jpg");
 }
 
 .project-overlay {

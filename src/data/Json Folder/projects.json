@@ -1,7 +1,7 @@
 [
   {
     "type": "odd",
-    "image": "Demo",
+    "image": "gitRepo",
     "title": "Git Repo",
     "description": "The GitHub User Information Retrieval Tool is a web application that leverages the GitHub API to provide users with detailed information about any GitHub user. Users can input the username of the GitHub user they are interested in, and the application will retrieve and display various details about that user, including their profile picture, bio, location, number of followers, number of repositories, and more",
     "status": "completed",
@@ -10,10 +10,10 @@
   },
   {
     "type": "even",
-    "image": "Demo",
-    "title": "Project 2",
-    "description": "This is a description of project 2.",
-    "status": "completed",
+    "image": "starStage",
+    "title": "Star Stage",
+    "description": "The Movie and Series Explorer is a web application that utilizes The Movie Database (TMDb) API to categorize and display movies and TV series to users. With a vast collection of movies and TV series available, users can explore various genres, discover popular titles, and find new favorites effortlessly",
+    "status": "inProgress",
     "codeLink": "https://github.com/Hassan-Elshamy/Portfolio",
     "demoLink": "https://github.com/Hassan-Elshamy/Portfolio"
   },

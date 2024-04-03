@@ -27,16 +27,16 @@ export default function Landing() {
     <div id="home" className="landing">
       <div className={`hover ${isTyping ? "cursor" : ""}`}></div>
       <div className="content">
-        <div class="featured-text">
-          <div class="featured-text-card">
+        <div className="featured-text">
+          <div className="featured-text-card">
             <span>Abdelrahman Hassan</span>
           </div>
-          <div class="featured-name">
+          <div className="featured-name">
             <p>
-              I'm <span class="typedText"></span>
+              I'm <span className="typedText"></span>
             </p>
           </div>
-          <div class="featured-text-info">
+          <div className="featured-text-info">
             <p>
               Experienced frontend developer with a passion for creating
               visually stunning and user-friendly websites.
