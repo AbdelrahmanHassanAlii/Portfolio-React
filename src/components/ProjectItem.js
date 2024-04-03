@@ -20,9 +20,6 @@ export default function ProjectItem({
       className={`project-item ${
         type === "even" ? "reverse" : ""
       } ${imageName}`}
-      style={{
-        backgroundSize: "cover",
-      }}
     >
       <div className="project-overlay"></div>
       <div className="project-text">
@@ -39,27 +36,29 @@ export default function ProjectItem({
           </div>
         )}
         <p className="project-desc">{description}</p>
-        <div className="project-buttons">
-          <Link
-            to={demoLink}
-            className="project-button"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <TbWorld fontSize={"1.5rem"} style={{ marginRight: "5px" }} />
-            Demo
-          </Link>
+        {status === "completed" && (
+          <div className="project-buttons">
+            <Link
+              to={demoLink}
+              className="project-button"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <TbWorld fontSize={"1.5rem"} style={{ marginRight: "5px" }} />
+              Demo
+            </Link>
 
-          <Link
-            to={codeLink}
-            className="project-button"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaCode fontSize={"1.5rem"} style={{ marginRight: "5px" }} />
-            Code
-          </Link>
-        </div>
+            <Link
+              to={codeLink}
+              className="project-button"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaCode fontSize={"1.5rem"} style={{ marginRight: "5px" }} />
+              Code
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );

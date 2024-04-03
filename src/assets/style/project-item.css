@@ -35,7 +35,6 @@
   min-height: 450px;
   position: relative;
   color: aliceblue;
-
   overflow: hidden;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
   border-radius: 8px;
@@ -44,9 +43,6 @@
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
-}
-
-.project-item {
   background-size: cover;
   background-image: url("../images/gitRepo.png");
 }
@@ -55,7 +51,7 @@
   background-image: url("../images/gitRepo.png");
 }
 
-.project-item.starStage{
+.project-item.starStage {
   background-image: url("../images/starStage.jpg");
 }
 
