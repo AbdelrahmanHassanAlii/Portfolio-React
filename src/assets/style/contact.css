@@ -2,7 +2,13 @@
 .contact-container {
   display: flex;
   gap: 20px;
+  flex-direction: column;
   margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  .contact-container {
+    flex-direction: row;
+  }
 }
 
 .contact-info {
