@@ -9,7 +9,7 @@ export default function Contact() {
 
   const handleSendMessage = () => {
     const messageText = `Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
-    const phoneNumber = "+201220575026"; // Add country code and phone number
+    const phoneNumber = "+201228388210"; // Add country code and phone number
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       messageText
     )}`;
@@ -20,7 +20,7 @@ export default function Contact() {
     <div className="contact-section narrow-container" id="contact">
       <div class="top-header">
         <h1>Get in touch</h1>
-        <span>Do you have a project in your mind, contact me here</span>
+        {/* <span>Do you have a project in your mind, contact me here</span> */}
       </div>
       <div class="contact-container">
         <div class="contact-info">
