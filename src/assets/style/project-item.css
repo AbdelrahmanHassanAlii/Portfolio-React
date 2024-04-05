@@ -55,6 +55,10 @@
   background-image: url("../images/starStage.jpg");
 }
 
+.project-item.expenceTracker {
+  background-image: url("../images/expenceTracker.png");
+}
+
 .project-overlay {
   width: 100%;
   height: 100%;

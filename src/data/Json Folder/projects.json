@@ -5,7 +5,9 @@
     "title": "Git Repo",
     "description": "The GitHub User Information Retrieval Tool is a web application that leverages the GitHub API to provide users with detailed information about any GitHub user. Users can input the username of the GitHub user they are interested in, and the application will retrieve and display various details about that user, including their profile picture, bio, location, number of followers, number of repositories, and more",
     "status": "completed",
+    "accessCode": "no",
     "codeLink": "https://github.com/AbdelrahmanHassanAlii/Git-Repo",
+    "accessDemo": "no",
     "demoLink": "https://abdelrahmanhassanalii.github.io/Git-Repo/"
   },
   {
@@ -14,16 +16,20 @@
     "title": "Star Stage",
     "description": "The Movie and Series Explorer is a web application that utilizes The Movie Database (TMDb) API to categorize and display movies and TV series to users. With a vast collection of movies and TV series available, users can explore various genres, discover popular titles, and find new favorites effortlessly",
     "status": "inProgress",
+    "accessCode": "no",
     "codeLink": "https://github.com/Hassan-Elshamy/Portfolio",
+    "accessDemo": "no",
     "demoLink": "https://github.com/Hassan-Elshamy/Portfolio"
   },
   {
     "type": "odd",
-    "image": "Demo",
-    "title": "Project 3",
-    "description": "This is a description of project 3.",
-    "status": "inProgress",
+    "image": "expenceTracker",
+    "title": "Expence Tracker",
+    "description": "Expense Tracker is a modern web application built with React that helps users manage their finances effectively by tracking expenses and income. With a sleek and intuitive user interface, Expense Tracker simplifies the process of monitoring financial transactions, providing users with insights into their spending habits and enabling better budgeting decisions",
+    "status": "completed",
+    "accessCode": "no",
     "codeLink": "https://github.com/Hassan-Elshamy/Portfolio",
+    "accessDemo": "no",
     "demoLink": "https://github.com/Hassan-Elshamy/Portfolio"
   },
   {
@@ -32,7 +38,9 @@
     "title": "Project 4",
     "description": "This is a description of project 4.",
     "status": "completed",
+    "accessCode": "no",
     "codeLink": "https://github.com/Hassan-Elshamy/Portfolio",
+    "accessDemo": "no",
     "demoLink": "https://github.com/Hassan-Elshamy/Portfolio"
   },
   {
@@ -41,7 +49,9 @@
     "title": "Project 5",
     "description": "This is a description of project 5.",
     "status": "inProgress",
+    "accessCode": "no",
     "codeLink": "https://github.com/Hassan-Elshamy/Portfolio",
+    "accessDemo": "no",
     "demoLink": "https://github.com/Hassan-Elshamy/Portfolio"
   },
   {
@@ -50,7 +60,9 @@
     "title": "Project 6",
     "description": "This is a description of project 6.",
     "status": "completed",
+    "accessCode": "no",
     "codeLink": "https://github.com/Hassan-Elshamy/Portfolio",
+    "accessDemo": "no",
     "demoLink": "https://github.com/Hassan-Elshamy/Portfolio"
   }
 ]
