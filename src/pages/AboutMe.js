@@ -10,6 +10,7 @@ import Services from "../components/Services";
 export default function AboutMe() {
   return (
     <div className="about-me-section narrow-container" id="about">
+      
       <AboutMeLinks />
       <Routes>
         <Route path="/" element={<About />} exact />
