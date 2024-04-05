@@ -14,6 +14,8 @@ export default function ProjectItem({
   status,
   codeLink,
   demoLink,
+  accessCode,
+  accessDemo,
 }) {
   return (
     <div
@@ -36,28 +38,29 @@ export default function ProjectItem({
           </div>
         )}
         <p className="project-desc">{description}</p>
-        {status === "completed" && (
-          <div className="project-buttons">
-            <Link
-              to={demoLink}
-              className="project-button"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <TbWorld fontSize={"1.5rem"} style={{ marginRight: "5px" }} />
-              Demo
-            </Link>
-
-            <Link
-              to={codeLink}
-              className="project-button"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaCode fontSize={"1.5rem"} style={{ marginRight: "5px" }} />
-              Code
-            </Link>
-          </div>
+        {/* Render code button if accessCode is true */}
+        {accessCode==="true" && status === "completed" && (
+          <Link
+            to={codeLink}
+            className="project-button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaCode fontSize={"1.5rem"} style={{ marginRight: "5px" }} />
+            Code
+          </Link>
+        )}
+        {/* Render demo button if accessDemo is true */}
+        {accessDemo==="true" && status === "completed" && (
+          <Link
+            to={demoLink}
+            className="project-button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <TbWorld fontSize={"1.5rem"} style={{ marginRight: "5px" }} />
+            Demo
+          </Link>
         )}
       </div>
     </div>
