@@ -37,8 +37,17 @@
   }
 }
 
-.about-me-links a:hover,
-.about-me-links a:active{
+.about-me-links a:hover{
+  color: #fff;
+  background-color: var(--first-color);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.about-me-links a.active {
   color: #fff;
   background-color: var(--first-color);
   border-radius: 10px;
