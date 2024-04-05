@@ -3,6 +3,7 @@ import "../assets/style/projects.css";
 import "../assets/style/projects.css";
 import ProjectItem from "./ProjectItem";
 import projectsData from "../data/Json Folder/projects.json";
+import SectionHeader from "./SectionHeader";
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
@@ -13,7 +14,7 @@ export default function Projects() {
 
   return (
     <div div className="projects-section narrow-container" id="projects">
-      <div className="projects-title">Projects</div>
+      <SectionHeader title="Projects" subtitle="Check out some of my projects" />
       <div className="projects-container">
         <div className="projects-list">
           {projects.map((project, index) => (
