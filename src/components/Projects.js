@@ -26,6 +26,8 @@ export default function Projects() {
               status={project.status}
               codeLink={project.codeLink}
               demoLink={project.demoLink}
+              accessCode={project.accessCode}
+              accessDemo={project.accessDemo}
             />
           ))}
         </div>
