@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../assets/style/contact.css";
 import { FaTelegramPlane } from "react-icons/fa";
+import SectionHeader from "./SectionHeader";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -18,10 +19,10 @@ export default function Contact() {
 
   return (
     <div className="contact-section narrow-container" id="contact">
-      <div class="top-header">
-        <h1>Get in touch</h1>
-        {/* <span>Do you have a project in your mind, contact me here</span> */}
-      </div>
+      <SectionHeader
+        title="Get in touch"
+        subtitle="Do you have a project in your mind, contact me here"
+      />
       <div class="contact-container">
         <div class="contact-info">
           <h2>
