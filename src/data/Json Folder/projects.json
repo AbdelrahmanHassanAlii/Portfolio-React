@@ -31,38 +31,5 @@
     "codeLink": "https://github.com/Hassan-Elshamy/Portfolio",
     "accessDemo": "no",
     "demoLink": "https://github.com/Hassan-Elshamy/Portfolio"
-  },
-  {
-    "type": "even",
-    "image": "Demo",
-    "title": "Project 4",
-    "description": "This is a description of project 4.",
-    "status": "completed",
-    "accessCode": "no",
-    "codeLink": "https://github.com/Hassan-Elshamy/Portfolio",
-    "accessDemo": "no",
-    "demoLink": "https://github.com/Hassan-Elshamy/Portfolio"
-  },
-  {
-    "type": "odd",
-    "image": "Demo",
-    "title": "Project 5",
-    "description": "This is a description of project 5.",
-    "status": "inProgress",
-    "accessCode": "no",
-    "codeLink": "https://github.com/Hassan-Elshamy/Portfolio",
-    "accessDemo": "no",
-    "demoLink": "https://github.com/Hassan-Elshamy/Portfolio"
-  },
-  {
-    "type": "even",
-    "image": "Demo",
-    "title": "Project 6",
-    "description": "This is a description of project 6.",
-    "status": "completed",
-    "accessCode": "no",
-    "codeLink": "https://github.com/Hassan-Elshamy/Portfolio",
-    "accessDemo": "no",
-    "demoLink": "https://github.com/Hassan-Elshamy/Portfolio"
   }
 ]
