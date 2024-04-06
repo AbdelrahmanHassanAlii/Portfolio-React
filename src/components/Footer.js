@@ -3,6 +3,7 @@ import "../assets/style/footer.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -27,15 +28,35 @@ export default function Footer() {
         </ul>
       </div>
       <div class="footer-social-icons">
-        <div class="icon">
-          <FaFacebookF />
-        </div>
-        <div class="icon">
-          <FaLinkedinIn />
-        </div>
-        <div class="icon">
-          <FaGithub />
-        </div>
+        <Link
+          className="icon"
+          style={{ color: "#1877F2" }}
+          to="https://www.facebook.com/profile.php?id=100015463386226"
+        >
+          <div class="icon">
+            <FaFacebookF />
+          </div>
+        </Link>
+
+        <Link
+          className="icon"
+          style={{ color: "#0077B5" }}
+          to="https://www.linkedin.com/in/abdelrahman-hassan-b09b80250?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bf4hU2ZwhSB6eg8sfKk0Olg%3D%3D"
+        >
+          <div class="icon">
+            <FaLinkedinIn />
+          </div>
+        </Link>
+
+        <Link
+          className="icon"
+          style={{ color: "black" }}
+          to="https://github.com/AbdelrahmanHassanAlii"
+        >
+          <div class="icon">
+            <FaGithub />
+          </div>
+        </Link>
       </div>
       <div class="bottom-footer" style={{ textAlign: "center" }}>
         <p class="copyright">Copyright © 2024. All rights reserved.</p>
