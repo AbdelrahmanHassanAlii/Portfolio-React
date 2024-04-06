@@ -34,10 +34,10 @@ export default function Contact() {
           </h2>
           <p>
             <MdOutlineEmail className="email-icon" fontSize={"20px"} /> Email:
-            john@doe.com
+            eng.abdulrahman.hassan@gmail.com
           </p>
           <p>
-            <FaPhone className="phone-icon" fontSize={"20px"} /> +91 70822 00001
+            <FaPhone className="phone-icon" fontSize={"20px"} /> +201228388210
           </p>
         </div>
         <div class="form-control">
