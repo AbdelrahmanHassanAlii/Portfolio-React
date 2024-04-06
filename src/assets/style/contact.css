@@ -120,3 +120,7 @@ textarea {
   font-size: 18px;
   rotate: -45deg;
 }
+
+.contact-info h2 .contact-icon {
+  margin: 0 0 0 10px;
+}

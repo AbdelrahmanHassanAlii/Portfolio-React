@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "../assets/style/contact.css";
 import { FaTelegramPlane } from "react-icons/fa";
 import SectionHeader from "./SectionHeader";
+import { PiArrowBendRightDownBold } from "react-icons/pi";
+import { MdOutlineEmail } from "react-icons/md";
+import { FaPhone } from "react-icons/fa6";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -26,13 +29,15 @@ export default function Contact() {
       <div class="contact-container">
         <div class="contact-info">
           <h2>
-            Find Me <i class="uil uil-corner-right-down"></i>
+            Find Me
+            <PiArrowBendRightDownBold className="contact-icon" />
           </h2>
           <p>
-            <i class="uil uil-envelope"></i> Email: john@doe.com
+            <MdOutlineEmail className="email-icon" fontSize={"20px"} /> Email:
+            john@doe.com
           </p>
           <p>
-            <i class="uil uil-phone"></i> +91 70822 00001
+            <FaPhone className="phone-icon" fontSize={"20px"} /> +91 70822 00001
           </p>
         </div>
         <div class="form-control">
