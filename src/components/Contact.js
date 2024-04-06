@@ -13,7 +13,7 @@ export default function Contact() {
 
   const handleSendMessage = () => {
     const messageText = `Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
-    const phoneNumber = "+201228388210"; // Add country code and phone number
+    const phoneNumber = "+201220575026"; // Add country code and phone number
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       messageText
     )}`;
@@ -37,7 +37,8 @@ export default function Contact() {
             eng.abdulrahman.hassan@gmail.com
           </p>
           <p>
-            <FaPhone className="phone-icon" fontSize={"20px"} /> +201228388210
+            <FaPhone className="phone-icon" fontSize={"20px"} /> Phone:
+            +201220575026
           </p>
         </div>
         <div class="form-control">
