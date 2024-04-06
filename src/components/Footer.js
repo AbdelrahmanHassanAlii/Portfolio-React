@@ -61,7 +61,7 @@ export default function Footer() {
       <div class="bottom-footer" style={{ textAlign: "center" }}>
         <p class="copyright">Copyright © 2024. All rights reserved.</p>
         <p class="design-by">
-          Designed with 💜 by{" "}
+          made with 💜 by{" "}
           <span className="my-name">Abdelrahman Hassan</span>
         </p>
       </div>
