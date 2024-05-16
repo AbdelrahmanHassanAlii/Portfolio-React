@@ -15,6 +15,7 @@ export default function AboutMe() {
       <AboutMeLinks />
       <Routes>
         <Route path="/" element={<About />} exact />
+        <Route path="/Portfolio-React" element={<About />} exact />
         <Route path="/aboutme/about" element={<About />} exact />
         <Route path="/aboutme/skills" element={<Skills />} exact />
         <Route path="/aboutme/services" element={<Services />} exact />
