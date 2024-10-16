@@ -20,6 +20,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <ProjectItem
               key={index}
+              id={project.id}
               type={project.type}
               imageName={project.image}
               title={project.title}

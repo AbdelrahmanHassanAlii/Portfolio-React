@@ -7,6 +7,9 @@
   --color-white: rgb(255, 255, 255);
 
   --color-gray: rgb(255, 255, 255, 0.7);
+  --gray-color: rgb(240, 238, 237);
+  --gray-color-2: #333;
+  --gray-color-3: #aaa;
 
   --text-color-second: rgb(68, 68, 68);
   --text-color-third: rgb(30, 159, 171);
@@ -18,6 +21,10 @@
   --third-color: rgb(192, 166, 49);
   --third-color-text: rgba(244, 206, 39, 0.4);
   --first-shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+a {
+  text-decoration: none;
 }
 
 /* ----- BASE ----- */
