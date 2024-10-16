@@ -50,7 +50,7 @@ export default function Header() {
         <ul className="nav_menu_list">
           <li className="nav_list">
             <a
-              href="#home"
+              href="/#home"
               className={`nav-link ${
                 activeLink === "home" ? "active-link" : ""
               }`}
@@ -61,7 +61,7 @@ export default function Header() {
           </li>
           <li className="nav_list">
             <a
-              href="#about"
+              href="/#about"
               className={`nav-link ${
                 activeLink === "about" ? "active-link" : ""
               }`}
@@ -72,7 +72,7 @@ export default function Header() {
           </li>
           <li className="nav_list">
             <a
-              href="#projects"
+              href="/#projects"
               className={`nav-link ${
                 activeLink === "projects" ? "active-link" : ""
               }`}
@@ -83,7 +83,7 @@ export default function Header() {
           </li>
           <li className="nav_list">
             <a
-              href="#contact"
+              href="/#contact"
               className={`nav-link ${
                 activeLink === "contact" ? "active-link" : ""
               }`}

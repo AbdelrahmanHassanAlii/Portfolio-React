@@ -4,6 +4,7 @@ import "../assets/style/projects.css";
 import ProjectItem from "./ProjectItem";
 import projectsData from "../data/Json Folder/projects.json";
 import SectionHeader from "./SectionHeader";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
@@ -33,6 +34,15 @@ export default function Projects() {
             />
           ))}
         </div>
+      </div>
+      <div className="more-projects">
+        <Link
+          to="/projects"
+          // target="_blank"
+          rel="noreferrer"
+        >
+          More Projects
+        </Link>
       </div>
     </div>
   );
