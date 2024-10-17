@@ -8,6 +8,7 @@ export default function ProjectsPage() {
 
   useEffect(() => {
     setProjects(projectsData);
+    console.log(projectsData);
   }, []);
 
   return (
@@ -17,7 +18,7 @@ export default function ProjectsPage() {
           key={project.id}
           id={project.id}
           type={project.type}
-          imageName={project.image}
+          image={project.image_1}
           title={project.title}
           description={project.description}
           status={project.status}

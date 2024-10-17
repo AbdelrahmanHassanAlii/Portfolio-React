@@ -2,9 +2,11 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import projectsData from "../data/Json Folder/projects.json";
 import "../assets/style/project-details.css";
+
 export default function ProjectDetail() {
   const [projectDetails, setProjectDetails] = useState({});
   const [baseimageLink, setBaseImageLink] = useState("");
+  const [activeImage, setActiveImage] = useState("image_1"); // Start with the first image
   const { id } = useParams();
 
   useEffect(() => {
@@ -12,12 +14,14 @@ export default function ProjectDetail() {
       let projects = projectsData;
       let project = projects.find((project) => project.id === id);
       setProjectDetails(project);
+      console.log(project);
       setBaseImageLink(project.image_1);
     }
   }, [id]);
 
-  const handleImageChange = (image) => {
-    setBaseImageLink(image);
+  const handleImageChange = (imageKey) => {
+    setBaseImageLink(projectDetails[imageKey]);
+    setActiveImage(imageKey);
   };
 
   return (
@@ -25,26 +29,26 @@ export default function ProjectDetail() {
       <div className="project-detail-content">
         <div className="project-detail-images">
           <div className="main-image">
-            <img
-            src={baseimageLink}
-            alt={projectDetails.title}
-          />
+            <img src={baseimageLink} alt={projectDetails.title} />
           </div>
           <div className="images">
             <img
               src={projectDetails.image_1}
               alt={projectDetails.title}
-              onClick={() => handleImageChange(projectDetails.image_1)}
+              className={activeImage === "image_1" ? "active" : ""}
+              onClick={() => handleImageChange("image_1")}
             />
             <img
               src={projectDetails.image_2}
               alt={projectDetails.title}
-              onClick={() => handleImageChange(projectDetails.image_2)}
+              className={activeImage === "image_2" ? "active" : ""}
+              onClick={() => handleImageChange("image_2")}
             />
             <img
               src={projectDetails.image_3}
               alt={projectDetails.title}
-              onClick={() => handleImageChange(projectDetails.image_3)}
+              className={activeImage === "image_3" ? "active" : ""}
+              onClick={() => handleImageChange("image_3")}
             />
           </div>
         </div>
@@ -53,6 +57,16 @@ export default function ProjectDetail() {
           <p className="project-detail-description">
             {projectDetails.description}
           </p>
+          <div className="project-detail-technology-stack">
+            <p>Technology Stack:</p>
+            <ul>
+              {projectDetails.technologyStack?.map((stack, index) => (
+                <li key={index} className="technology-stack-item">
+                  {stack}
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </div>
