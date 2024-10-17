@@ -2,11 +2,13 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import projectsData from "../data/Json Folder/projects.json";
 import "../assets/style/project-details.css";
+import { FaGear } from "react-icons/fa6";
+import { FaCheckCircle } from "react-icons/fa";
 
 export default function ProjectDetail() {
   const [projectDetails, setProjectDetails] = useState({});
   const [baseimageLink, setBaseImageLink] = useState("");
-  const [activeImage, setActiveImage] = useState("image_1"); // Start with the first image
+  const [activeImage, setActiveImage] = useState("image_1");
   const { id } = useParams();
 
   useEffect(() => {
@@ -53,7 +55,17 @@ export default function ProjectDetail() {
           </div>
         </div>
         <div className="project-detail-info">
-          <h1 className="project-detail-title">{projectDetails.title}</h1>
+          <h1 className="project-detail-title">
+            {projectDetails.title}{" "}
+            <span className="project-detail-status">
+              {projectDetails.status}
+              {projectDetails.status === "completed" ? (
+                <FaCheckCircle className="check-icon  status-icon" />
+              ) : (
+                <FaGear className="gear-icon status-icon spinning" />
+              )}
+            </span>
+          </h1>
           <p className="project-detail-description">
             {projectDetails.description}
           </p>
@@ -63,6 +75,16 @@ export default function ProjectDetail() {
               {projectDetails.technologyStack?.map((stack, index) => (
                 <li key={index} className="technology-stack-item">
                   {stack}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="project-features">
+            <p>Features:</p>
+            <ul>
+              {projectDetails.features?.map((feature, index) => (
+                <li key={index} className="feature-item">
+                  {feature}
                 </li>
               ))}
             </ul>

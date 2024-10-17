@@ -73,6 +73,16 @@
   background-clip: text;
 }
 
+.project-detail-status {
+  font-size: 12px;
+  color: var(--gray-color-3);
+}
+
+.status-icon {
+  margin-left: 5px;
+  font-size: 11px;
+}
+
 .project-detail-description {
   margin-bottom: 20px;
   line-height: 1.5;
@@ -81,10 +91,11 @@
 }
 
 .project-detail-technology-stack p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   line-height: 1.5;
   text-align: justify;
   color: var(--text-color-second);
+  font-weight: bold;
 }
 
 .project-detail-technology-stack ul {
@@ -113,4 +124,30 @@
   cursor: pointer;
   opacity: 1;
   background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+.project-features {
+  margin: 20px 0;
+  line-height: 1.5;
+  text-align: justify;
+  color: var(--text-color-second);
+}
+
+.project-features p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  text-align: justify;
+  color: var(--text-color-second);
+  font-weight: bold;
+}
+
+.project-features ul {
+  margin-left: 25px;
+}
+
+.project-features li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  text-align: justify;
+  color: var(--text-color-second);
 }
