@@ -15,22 +15,18 @@ export default function Projects() {
 
   return (
     <div div className="projects-section narrow-container" id="projects">
-      <SectionHeader title="Projects" subtitle="Check out some of my projects" />
+      <SectionHeader
+        title="Projects"
+        subtitle="Check out some of my projects"
+      />
       <div className="projects-container">
         <div className="projects-list">
           {projects.map((project, index) => (
             <ProjectItem
               key={index}
               id={project.id}
-              type={project.type}
               imageName={project.image}
               title={project.title}
-              description={project.description}
-              status={project.status}
-              codeLink={project.codeLink}
-              demoLink={project.demoLink}
-              accessCode={project.accessCode}
-              accessDemo={project.accessDemo}
             />
           ))}
         </div>

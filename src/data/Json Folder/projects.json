@@ -13,7 +13,7 @@
     "accessDesign": "no",
     "designLink": "https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6",
     "level": "junior",
-    "technologyStack": [ "HTml", "CSS", "JavaScript", "React" ],
+    "technologyStack": ["HTml", "CSS", "JavaScript", "React"],
     "team": [
       {
         "id": "1",
@@ -81,7 +81,15 @@
     "accessDesign": "no",
     "designLink": "https://www.figma.com/design/mBGsi6GyGrutyiwjQIl3Gk/E-commerce-Website-Template-(Freebie)-(Community)?node-id=39-1402&node-type=canvas&t=8IJ3vkQcbIMdzx5c-0",
     "level": "advanced",
-    "technologyStack": ["HTml", "CSS", "JavaScript", "React", "Node.js", "Express.js", "MongoDB"],
+    "technologyStack": [
+      "HTml",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
     "team": [
       {
         "id": "1",
