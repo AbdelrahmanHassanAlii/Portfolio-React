@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../assets/style/projects.css";
 import "../assets/style/projects.css";
 import ProjectItem from "./ProjectItem";
-import projectsData from "../data/Json Folder/projects.json";
+import projectsData from "../data/Json Folder/topProjects.json";
 import SectionHeader from "./SectionHeader";
 import { Link } from "react-router-dom";
 
@@ -10,6 +10,7 @@ export default function Projects() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
+    console.log(projectsData);
     setProjects(projectsData);
   }, []);
 
@@ -25,7 +26,7 @@ export default function Projects() {
             <ProjectItem
               key={index}
               id={project.id}
-              imageName={project.image}
+              image={project.image}
               title={project.title}
             />
           ))}

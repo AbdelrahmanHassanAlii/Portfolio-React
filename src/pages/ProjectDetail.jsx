@@ -19,7 +19,7 @@ export default function ProjectDetail() {
       <div className="project-detail-container"></div>
       <div className="project-detail-img">
         <img
-          src={require(`../assets/images/${projectDetails.image}`)}
+          src={projectDetails.image_1}
           alt={projectDetails.title}
         />
       </div>
